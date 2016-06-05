@@ -8,9 +8,19 @@
         span.icon-bar
       a.navbar-brand(href='/')
         i.fa.fa-cube
-        | Journal-O-Matic
+        | Elementa
     .collapse.navbar-collapse
       ul.nav.navbar-nav
+        li.dropdown
+          a.dropdown-toggle(href='#', data-toggle='dropdown') Articles
+            i.caret
+            ul.dropdown-menu
+              li
+                a(href="/journals/Elementa/article") Browse All Articles
+              li
+                a(href="/journals/Elementa/article") Browse All Articles
+              li
+                a(href="/journals/Elementa/article") Browse All Articles
         li(class=(title == 'Contact') ? 'active' : undefined)
           a(href='/contact') Contact
       ul.nav.navbar-nav.navbar-right

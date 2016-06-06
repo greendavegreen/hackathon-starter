@@ -11,6 +11,23 @@
         | Journal-O-Matic
     .collapse.navbar-collapse
       ul.nav.navbar-nav
+        li.dropdown
+          a(data-toggle="dropdown" data-submenu)
+            | Dropdown
+            span.caret
+          ul.dropdown-menu
+            li.dropdown-submenu
+              a Another action
+              ul.dropdown-menu
+                li
+                  a Sub action
+                  a Another sub action
+                  a Something else here
+                li
+                  a blooffy floof
+                li.divider
+                li
+                  a bottom-o-list
         li(class=(title == 'Contact') ? 'active' : undefined)
           a(href='/contact') Contact
       ul.nav.navbar-nav.navbar-right

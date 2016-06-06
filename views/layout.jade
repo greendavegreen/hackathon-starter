@@ -6,6 +6,9 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(name='theme-color' content='#4DA5F4')
     meta(name='csrf-token', content=_csrf)
+
+    meta(name="robots", content="noindex")
+
     title #{title} - Hackathon Starter
     link(rel='shortcut icon', href='/favicon.png')
     link(rel='stylesheet', href='/css/main.css')
@@ -21,6 +24,7 @@ html
 
     script(src='/js/lib/jquery-2.2.0.min.js')
     script(src='/js/lib/bootstrap.min.js')
+    script(src='/js/lib/bootstrap-submenu.min.js')
     script(src='/js/main.js')
 
     // Google Analytics: change UA-XXXXX-X to be your site's ID
